@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dj Xazuk</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="static/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="static/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/icon/favicon-16x16.png">
+    <link rel="manifest" href="static/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<style>
+body {
+    background: #9d4edd;
+    color: white;
+}
+
+.Text_Con {
+    width: 705px;
+    height: 225px;
+    background: #9d4edd;
+    position: absolute;
+    left: 458px;
+    top: 100px;
+}
+
+.Text_Gmail {
+    width: 705px;
+    height: 55px;
+    background: #9d4edd;
+    position: absolute;
+    left: 458px;
+    top: 550px;
+}
+
+.Text_authors {
+    width: 300px;
+    height: 110px;
+    background: #9d4edd;
+    text-align: center;
+    position: absolute;
+    left: 12px;
+    top: 495px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 523px;
+    top: 13px;
+}
+
+.Top_menu li{
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.Top_menu a{
+    font-family: arial;
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+}
+
+.Top_menu a:hover{
+    color: #5a189a;
+}
+
+.Text_Con a{
+    font-family: arial;
+    font-size: 22px;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+}
+
+.Text_Con a:hover{
+    color: #ff9e00;
+}
+
+.SocImg {
+    position: absolute;
+    border-radius: 55px;
+	left: 690px;
+	top: 180px;
+}
+
+.YouTube {
+    position: absolute;
+	left: 400px;
+	top: 140px;
+}
+
+.Twitch {
+    position: absolute;
+    border-radius: 80px;
+	left: 405px;
+	top: 180px;
+}
+
+.Discord {
+    position: absolute;
+    border-radius: 80px;
+	left: 405px;
+	top: 220px;
+}
+
+.telegram {
+    position: absolute;
+    border-radius: 80px;
+	left: 405px;
+	top: 260px;
+}
+
+.vk {
+    position: absolute;
+    border-radius: 80px;
+	left: 400px;
+	top: 295px;
+}
+
+h1 {
+    position: absolute;
+    font-family: arial;
+    font-size: 45px;
+    left: 11px;
+    top: 70px;
+}
+
+h3 {
+    color: white;
+    font-family: arial;
+    font-size: 25px;
+    position: relative;
+    text-align: justify;
+}
+
+h4 {
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    position: relative;
+    text-align: justify;
+}
+
+h5 {
+    position: relative;
+    font-family: arial;
+    font-size: 22px;
+    left: 100px;
+    top: 100px;
+}
+
+h6 {
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+    font-style: italic;
+    position: relative;
+    text-align: justify;
+}
+
+.circle1 {
+    width: 174px;
+    height: 174px;
+    background: #5a189a;
+    border-radius: 50%;
+    position: absolute;
+    top: 43px;
+    left: 43px;
+}
+
+.square1 {
+    width: 175px;
+    height: 175px;
+    background: #5a189a;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 0 0 50px 50px;
+    transform: rotate(-45deg);
+}
+
+.triangle1 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #5a189a;
+    border-right: 100px solid transparent;
+}
+
+.square2 {
+    width: 175px;
+    height: 175px;
+    background: #5a189a;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    border-radius: 0 0 50px 50px;
+    transform: rotate(-45deg);
+}
+
+.circle2 {
+    width: 174px;
+    height: 174px;
+    background: #ff9e00;
+    border-radius: 50%;
+    position: absolute;
+    top: 63px;
+    left: 156px;
+}
+
+.square3 {
+    width: 175px;
+    height: 150px;
+    background: #ff9e00;
+    position: absolute;
+    left: 80px;
+    top: 0px;
+    border-radius: 0 0 50px 50px;
+    transform: rotate(-45deg);
+}
+
+.triangle2 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 80px;
+    border-top: 100px solid #ff9e00;
+    border-right: 100px solid transparent;
+}
+
+.square4 {
+    width: 175px;
+    height: 150px;
+    background: #ff9e00;
+    position: absolute;
+    left: 129px;
+    top: 49px;
+    border-radius: 0 0 50px 50px;
+    transform: rotate(-45deg);
+}
+
+.circle3 {
+    width: 175px;
+    height: 174px;
+    background: #ff7900;
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    left: 17px;
+}
+
+.square5 {
+    width: 175px;
+    height: 150px;
+    background: #ff7900;
+    position: absolute;
+    left: 0px;
+    top: 75px;
+    border-radius: 0 0 50px 50px;
+    transform: rotate(-45deg);
+}
+
+.triangle3 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0px;
+    top: 75px;
+    border-top: 100px solid #ff7900;
+    border-right: 100px solid transparent;
+}
+
+.square6 {
+    width: 175px;
+    height: 150px;
+    background: #ff7900;
+    position: absolute;
+    left: -8px;
+    top: 77px;
+    border-radius: 0 0 50px 50px;
+    transform: rotate(-45deg);
+}
+</style>
+<body>
+    <div class="triangle3"></div>
+    <div class="square5"></div>
+    <div class="square6"></div>
+    <div class="circle3"></div>
+
+    <div class="triangle2"></div>
+    <div class="square3"></div>
+    <div class="square4"></div>
+    <div class="circle2"></div>
+
+    <div class="triangle1"></div>
+    <div class="square1"></div>
+    <div class="square2"></div>
+    <div class="circle1"></div>
+
+    <h1 style="color: white">Contacts</h1>
+
+    <div class="Text_Con">
+        <h3>Dj Xazuk в соц сетях:</h3>
+        <h3><a href="https://www.youtube.com/channel/UCNKSbMtzH63rzWWz1XRM7Jw">YouTube</a></h3>
+        <h3><a href="https://www.twitch.tv/xazuk_">Twitch</a></h3>
+        <h3><a href="https://discord.gg/PrUeAZqrj7">Discord</a></h3>
+        <h3><a href="https://t.me/xazukbanda">Telegram</a></h3>
+        <h3><a href="https://vk.com/xbanda_production">VK</a></h3>
+    </div>
+
+    <img src="static/img/SocialSite.png" width="510" height="295" class="SocImg" />
+    <img src="static/img/YouTube.png" width="45" height="30" class="YouTube" />
+    <img src="static/img/Twitch.jpg" width="33" height="33" class="Twitch" />
+    <img src="static/img/Discord.jpg" width="33" height="33" class="Discord" />
+    <img src="static/img/telegram.png" width="32" height="32" class="telegram" />
+    <img src="static/img/vk.png" width="42" height="42" class="vk" />
+
+    <div class="Text_Gmail">
+        <h4>С исполнителем и разработчиками сайта можно связаться по почте:</h4>
+        <h4>info.yt.xaizer@gmail.com</h4>
+    </div>
+
+    <div class="Text_authors">
+        <h4>Над сайтом работали:</h4>
+        <h6>Боярогло Дарья</h6>
+        <h6>Горбунов Валерий</h6>
+        <h6>Петриев Антон</h6>
+    </div>
+
+    <header>
+            <div class="All_header_menu">
+                <div class="Top_menu">
+                    <ul>
+                        <li><a href="/DjXazuk">Home</a></li>
+                        <li><a href="/SocialNetwork">Social Network</a></li>
+                        <li><a href="/Team">XBanda Team</a></li>
+                    </ul>
+                </div>
+            </div>
+    </header>
+
+</body>
+</html>
